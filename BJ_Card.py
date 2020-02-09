@@ -1,6 +1,7 @@
 import Card
 
-class BJ_Card(Card.Card):
+
+class BJ_Card(Card.PositionableCard):
     ACE_VALUE = 1
 
     @property

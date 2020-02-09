@@ -23,10 +23,3 @@ class Deck(Hand.Hand):
                     print("Nie mogę dalej rozdawać. Zabrakło kart!")
 
 
-my_hand = Hand.Hand()
-your_hand = Hand.Hand()
-deck1 = Deck()
-deck1.populate()
-deck1.deal([my_hand, your_hand], per_hand=5)
-print(my_hand)
-print(your_hand)
